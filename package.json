@@ -1,6 +1,6 @@
 {
   "name": "mongo-to-elastic",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "ElasticSearch transfer for MongoDB database or collection",
   "main": "index.js",
   "scripts": {
