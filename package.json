@@ -1,0 +1,29 @@
+{
+  "name": "mongo-to-elastic",
+  "version": "0.0.1",
+  "description": "ElasticSearch transfer for MongoDB database or collection",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "mongodb",
+    "elasticsearch",
+    "transfer"
+  ],
+  "main": "lib/index.js",
+  "bin": {
+    "mongo-to-elastic": "bin/index.js"
+  },
+  "author": "indatawetrust",
+  "license": "MIT",
+  "dependencies": {
+    "babel-polyfill": "^6.23.0",
+    "elasticsearch": "^13.0.1",
+    "mongodb": "^2.2.26",
+    "mongoose": "^4.9.9",
+    "p-queue": "^1.0.0",
+    "progress": "^2.0.0",
+    "yargs": "^8.0.1"
+  }
+}
