@@ -9,7 +9,7 @@ npm install mongo-to-elastic -g
 All collections are transferred unless the collection is defined. To define more than one collection;
 
 ```
-mongo-to-elastic -db app -c user -c post
+mongo-to-elastic --db app -c user -c post
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ Options:
   --database, --db      MongoDB database      
   --collection, -c      MongoDB collection
   --elastic-host, --eh  ElasticSearch host  (default localhost)
-  --elastic-port, --ep  ElasticSearch port  (default 9300)
+  --elastic-port, --ep  ElasticSearch port  (default 9200)
   --concurrency, --con  Promise concurrency (default 250)
   --help                Show help          
 ```
