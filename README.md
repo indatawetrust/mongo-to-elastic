@@ -21,7 +21,7 @@ Options:
   --mongo-host, --mh    MongoDB host        (default localhost)
   --mongo-port, --mp    MongoDB port        (default 27017)
   --database, --db      MongoDB database      
-  --collection, -c      MongoDB collection
+  --collection, --c      MongoDB collection
   --elastic-host, --eh  ElasticSearch host  (default localhost)
   --elastic-port, --ep  ElasticSearch port  (default 9200)
   --concurrency, --con  Promise concurrency (default 250)
